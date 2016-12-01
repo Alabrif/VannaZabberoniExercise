@@ -20,11 +20,11 @@ namespace QuadratoAsterischi
             //TODO: STAMPRE IL QUADRATO
             for (int i = 0; i < lato; i++)
             {
-                for (int j = 0; j < lato; j++)
+                for (int j = 0; j < lato; j++) //STAMPO LA RIGA
                 {
                     Console.Write(" *");
                 }
-                Console.WriteLine("");
+                Console.WriteLine("");//VADO A CAPO
             }
 
             Read();
