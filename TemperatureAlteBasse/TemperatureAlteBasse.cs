@@ -22,7 +22,7 @@ namespace TemperatureAlteBasse
             {
                 int temperatura = Convert.ToInt32(Console.ReadLine());
                 //TODO: DETERMINARE LE TEMPERATURE ALTE E BASSE
-                if (temperatura => 0)
+                if (temperatura >= 0)
                 {
                     soprazero += 1;
                 }
