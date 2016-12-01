@@ -11,18 +11,32 @@ namespace TriangoloDiFloyd
     {
         static void Main(string[] args)
         {
-            int k = 1;
-            for (int i = 0; i <= 5; i++)
+            WriteLine("Inserire quante righe si vuole");
+            //int righe = Convert.ToInt32(Console.ReadLine())
+            int result;
+            int righe;
+            if (int.TryParse(Console.ReadLine(), out result))
             {
-                for (int j = 1; j <= i; j++)
-                {
-                    Write($"\t{k}");
-                    k++;
-                }
-                WriteLine();
-            }
+                righe = result;
 
-            Read();
+                int k = 1;
+                for (int i = 0; i <= righe; i++)
+                {
+                    for (int j = 1; j <= i; j++)
+                    {
+                        Write($"\t{k}");
+                        k++;
+                    }
+                    WriteLine();
+                }
+
+                Read();
+            }
+            else
+            {
+                WriteLine("Hai sbagliato!");
+                Main(args);
+            }
         }
     }
 }
