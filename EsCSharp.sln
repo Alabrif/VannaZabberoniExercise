@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangoloDiFloyd", "Triango
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureAlteBasse", "TemperatureAlteBasse\TemperatureAlteBasse.csproj", "{C849CE19-4048-4DD1-9988-12262262792E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoreMinimoMassimoChiusoDalloZero", "ValoreMinimoMassimoChiusoDalloZero\ValoreMinimoMassimoChiusoDalloZero.csproj", "{8438D890-AE80-435C-A890-746098ED1109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C849CE19-4048-4DD1-9988-12262262792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C849CE19-4048-4DD1-9988-12262262792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C849CE19-4048-4DD1-9988-12262262792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8438D890-AE80-435C-A890-746098ED1109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8438D890-AE80-435C-A890-746098ED1109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8438D890-AE80-435C-A890-746098ED1109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8438D890-AE80-435C-A890-746098ED1109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
