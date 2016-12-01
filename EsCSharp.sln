@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValoreMinimoMassimoChiusoDa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadratoAsterischi", "QuadratoAsterischi\QuadratoAsterischi.csproj", "{7B8B0591-C1F3-44DC-A8AF-647E129F5717}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimiNNumeri", "PrimiNNumeri\PrimiNNumeri.csproj", "{05D7BDBF-4293-44FE-8C51-8D45D9D0B453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7B8B0591-C1F3-44DC-A8AF-647E129F5717}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B8B0591-C1F3-44DC-A8AF-647E129F5717}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B8B0591-C1F3-44DC-A8AF-647E129F5717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D7BDBF-4293-44FE-8C51-8D45D9D0B453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D7BDBF-4293-44FE-8C51-8D45D9D0B453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D7BDBF-4293-44FE-8C51-8D45D9D0B453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D7BDBF-4293-44FE-8C51-8D45D9D0B453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
