@@ -13,20 +13,22 @@ namespace TriangoloDiFloyd
         {
             WriteLine("Inserire quante righe si vuole");
             //int righe = Convert.ToInt32(Console.ReadLine())
-            int result;
-            int righe;
+            int result; //VARIABILE PER IL TRYPARSE
+            int righe; //RIGHE DEL TRIANGOLO DI FLOYD
             if (int.TryParse(Console.ReadLine(), out result))
             {
                 righe = result;
 
-                int k = 1;
+                int k = 1; //CONTATORE CHE STAMPA I NUMERI
                 for (int i = 0; i <= righe; i++)
                 {
                     for (int j = 1; j <= i; j++)
                     {
+                        //STAMPO LE RIGHE
                         Write($"\t{k}");
                         k++;
                     }
+                    //VADO A CAPO
                     WriteLine();
                 }
 
@@ -34,6 +36,7 @@ namespace TriangoloDiFloyd
             }
             else
             {
+                //NEL CASO IN CUI NON RIUSCISSI A CONVERTIRE RIGHE
                 WriteLine("Hai sbagliato!");
                 Main(args);
             }
