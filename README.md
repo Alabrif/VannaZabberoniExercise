@@ -1,6 +1,18 @@
 # VannaZabberoniExercise
 esercizi FITSTIC di programmazione C#
 
+> #ATTENZIONE:
+>Ho usato alcuni costrutti particolari che la Vanna non ha spiegato:
+>Primo String interpolation. Al posto di usare ```String.Format``` metto all'inizio della stringa il dollaro: ```($"{j+j}")``` in questo modo dentro la stringa posso inniettare del codice/operazioni senza ricorrere ad altri oggetti.
+>Secondo: Probabilmente non c'è da nessuna parte 'Console.Qualcosa' Poichè ho inserito come using statico: using static System.Console:
+>```
+>C# 
+>using static System.Console
+```
+>In questo modo possiamo usare i metodi: ReadLine, WriteLine, Write etc.. della libreria Console senza inserire il "Console. " prima
+>#È una bad practice però visto che in questi esercizi ce ne sono un esagerazione l'ho voluto fare lo stesso!
+
+
 #Esercizi FITSTIC C# 
 
 #TRIANGOLO DI FLOYD
