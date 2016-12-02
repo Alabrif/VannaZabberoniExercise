@@ -17,7 +17,6 @@ esercizi FITSTIC di programmazione C#
 #Esercizi FITSTIC C# 
 
 #TRIANGOLO DI FLOYD
-
 Stampare un triangolo rettangolo costituito da numeri consecutivi in modo che sulla riga n ci siano n
 
 numeri (triangolo di Floyd).
@@ -59,7 +58,7 @@ Stampare un quadrato di asterischi di lato n.
 >-	0, 1, 4, 9, 16, 25, 36, 49, ...
 >-	1, 2, 4, 8, 16, 32, 64, 128, 256, ... 
 
-##Esercitazioni mie non della Vanna Zabberoni
+#~*Esercitazioni mie non della Vanna Zabberoni*~
 
 #Piramide di Asterischi
 
