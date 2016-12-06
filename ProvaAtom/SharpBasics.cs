@@ -11,4 +11,5 @@ public static void Main(string[] args)
 
     Console.WriteLine($"{a+b}");
 
+    Console.ReadLine();
 }
