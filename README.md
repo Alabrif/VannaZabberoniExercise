@@ -31,10 +31,7 @@ numeri (triangolo di Floyd).
 >7 8 9 10
 
 >11 12 13 14 15
->
-
-#TEMPERATURE
-
+>#TEMPERATURE
 Data una serie di 10 temperature, stabilire quante sono superiori e quante inferiori allo zero e se la
 
 temperatura media è superiore o inferiore allo zero.
@@ -67,3 +64,18 @@ creare un programma che stampi una piramide di asterischi di altezza N
 #Quadrato vuoto di asterischi
 
 creare un programma che stampi un quadrato di asterischi vuoto di altezza N
+
+
+#Prendere in input 10 numeri interi positivi e valutare se sono pari o dispari
+
+>PRENDERE IN INPUT DIECI VALORI E DETERMINARE
+>               QUANTI SONO PARI
+>               QUANTI SONO DISPARI
+>               LA SOMMA DI TUTTI I VALORI
+>               LA MEDIA DI TUTTI I VALORI
+>              
+>              REGOLE:
+>                   NON POSSONO ESSERE INSERITI NUMERI NEGATIVI
+>                   NON POSSONO ESSERE INSERITI PIU' DI 6 NUMERI PARI/DISPARI CONSECUTIVAMENTE.
+>                   NON PUO' ESSERE INSERITO IL NUMERO 0
+
