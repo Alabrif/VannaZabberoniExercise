@@ -66,14 +66,10 @@ creare un programma che stampi una piramide di asterischi di altezza N
 creare un programma che stampi un quadrato di asterischi vuoto di altezza N
 
 
-#Prendere in input 10 numeri interi positivi e valutare se sono pari o dispari
+#Pari o Dispari
 
->PRENDERE IN INPUT DIECI VALORI E DETERMINARE
->               QUANTI SONO PARI
->               QUANTI SONO DISPARI
->               LA SOMMA DI TUTTI I VALORI
->               LA MEDIA DI TUTTI I VALORI
->              
+Prendere in input 10 valori, determinare se sono pari, dispari, la loro somma e la loro media
+
 >              REGOLE:
 >                   NON POSSONO ESSERE INSERITI NUMERI NEGATIVI
 >                   NON POSSONO ESSERE INSERITI PIU' DI 6 NUMERI PARI/DISPARI CONSECUTIVAMENTE.
