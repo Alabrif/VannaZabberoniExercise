@@ -22,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlowChartCostruttiBase", "FlowChartCostruttiBase", "{62E6A5B5-7559-426F-80FC-EB00373843EA}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\FlowChart\FlowChartCicliFor.jpg = ..\..\..\Desktop\FlowChart\FlowChartCicliFor.jpg
+		..\..\..\Desktop\FlowChart\FlowChartIfElseIf.jpg = ..\..\..\Desktop\FlowChart\FlowChartIfElseIf.jpg
 	EndProjectSection
 EndProject
 Global
