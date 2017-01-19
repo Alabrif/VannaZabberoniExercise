@@ -29,6 +29,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Metodi", "Metodi", "{0922F5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuCercaValoreMassimoMediaNumeriMEtodi", "MenuCercaValoreMassimoMediaNumeriMEtodi\MenuCercaValoreMassimoMediaNumeriMEtodi.csproj", "{9EC96372-C473-4E7E-9452-82445ECB026F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Risorse", "Risorse", "{CF19B820-32FA-412B-9C2F-8AD1E3C57282}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Metodi - Esercizi.pdf = ..\..\..\..\Desktop\Metodi - Esercizi.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,5 +80,6 @@ Global
 		{4CB449C2-0536-4B2E-9272-02784FE5245F} = {52097A0F-341E-4EC9-A952-38089BD19F2D}
 		{92A0F25C-3B4B-4AE3-B4E6-428B586AC7CA} = {52097A0F-341E-4EC9-A952-38089BD19F2D}
 		{9EC96372-C473-4E7E-9452-82445ECB026F} = {0922F575-53B5-437E-9281-71931990BCD4}
+		{CF19B820-32FA-412B-9C2F-8AD1E3C57282} = {0922F575-53B5-437E-9281-71931990BCD4}
 	EndGlobalSection
 EndGlobal
