@@ -15,15 +15,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomboAsterischi", "RomboAst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadratoAsterischiVuoto", "QuadratoAsterischiVuoto\QuadratoAsterischiVuoto.csproj", "{92A0F25C-3B4B-4AE3-B4E6-428B586AC7CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PariODispari", "..\EserciziarioCSharp\PariODispari\PariODispari.csproj", "{3E71283B-6D3C-4A3F-83F0-6442966173C5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdinaTreNumeriInOrdineCrescente", "..\EserciziarioCSharp\OrdinaTreNumeriInOrdineCrescente\OrdinaTreNumeriInOrdineCrescente.csproj", "{1DF710F7-8F7C-45AA-B6D3-6554474EA8A6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FlowChartCostruttiBase", "FlowChartCostruttiBase", "{62E6A5B5-7559-426F-80FC-EB00373843EA}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\FlowChart\FlowChartCicliFor.jpg = ..\..\..\Desktop\FlowChart\FlowChartCicliFor.jpg
 		..\..\..\Desktop\FlowChart\FlowChartIfElseIf.jpg = ..\..\..\Desktop\FlowChart\FlowChartIfElseIf.jpg
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Asterischi", "Asterischi", "{52097A0F-341E-4EC9-A952-38089BD19F2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cicli For", "Cicli For", "{6A0ACC8A-A553-4D6C-8256-C23E0547852E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,16 +55,16 @@ Global
 		{92A0F25C-3B4B-4AE3-B4E6-428B586AC7CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92A0F25C-3B4B-4AE3-B4E6-428B586AC7CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92A0F25C-3B4B-4AE3-B4E6-428B586AC7CA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E71283B-6D3C-4A3F-83F0-6442966173C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E71283B-6D3C-4A3F-83F0-6442966173C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E71283B-6D3C-4A3F-83F0-6442966173C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E71283B-6D3C-4A3F-83F0-6442966173C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DF710F7-8F7C-45AA-B6D3-6554474EA8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DF710F7-8F7C-45AA-B6D3-6554474EA8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DF710F7-8F7C-45AA-B6D3-6554474EA8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DF710F7-8F7C-45AA-B6D3-6554474EA8A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18ABFE6F-D2E8-41E4-BBC4-4F44186FC1FD} = {62E6A5B5-7559-426F-80FC-EB00373843EA}
+		{C849CE19-4048-4DD1-9988-12262262792E} = {62E6A5B5-7559-426F-80FC-EB00373843EA}
+		{8438D890-AE80-435C-A890-746098ED1109} = {62E6A5B5-7559-426F-80FC-EB00373843EA}
+		{7B8B0591-C1F3-44DC-A8AF-647E129F5717} = {52097A0F-341E-4EC9-A952-38089BD19F2D}
+		{4CB449C2-0536-4B2E-9272-02784FE5245F} = {52097A0F-341E-4EC9-A952-38089BD19F2D}
+		{92A0F25C-3B4B-4AE3-B4E6-428B586AC7CA} = {52097A0F-341E-4EC9-A952-38089BD19F2D}
 	EndGlobalSection
 EndGlobal
