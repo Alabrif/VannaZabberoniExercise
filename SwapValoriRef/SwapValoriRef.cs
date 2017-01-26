@@ -10,7 +10,6 @@ namespace SwapValoriRef
     {
         static void Main ( string[] args )
         {
-
             int primoNumero = 21;
             int secondoNumero = 33;
 
@@ -19,9 +18,7 @@ namespace SwapValoriRef
             SwapValori( ref primoNumero , ref secondoNumero );
 
             Console.WriteLine( "Dopo lo swap: X: {0}, Y; {1}" , primoNumero , secondoNumero );
-
         }
-
 
         /// <summary>
         /// Metodo per cambiare il valore di due variabili
