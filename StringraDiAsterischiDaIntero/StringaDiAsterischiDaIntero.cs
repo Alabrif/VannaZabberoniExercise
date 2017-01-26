@@ -10,6 +10,7 @@ namespace StringraDiAsterischiDaIntero
     {
         static void Main ( string[] args )
         {
+
         }
     }
 }

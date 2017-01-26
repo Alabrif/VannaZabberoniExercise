@@ -36,6 +36,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Risorse", "Risorse", "{CF19
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringraDiAsterischiDaIntero", "StringraDiAsterischiDaIntero\StringraDiAsterischiDaIntero.csproj", "{301BD772-EC66-4AB3-913D-1E78C1A78430}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapValoriRef", "SwapValoriRef\SwapValoriRef.csproj", "{EE96656D-3598-4170-AA11-CEE2B7695D50}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -74,6 +76,10 @@ Global
 		{301BD772-EC66-4AB3-913D-1E78C1A78430}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{301BD772-EC66-4AB3-913D-1E78C1A78430}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{301BD772-EC66-4AB3-913D-1E78C1A78430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +94,6 @@ Global
 		{9EC96372-C473-4E7E-9452-82445ECB026F} = {0922F575-53B5-437E-9281-71931990BCD4}
 		{CF19B820-32FA-412B-9C2F-8AD1E3C57282} = {0922F575-53B5-437E-9281-71931990BCD4}
 		{301BD772-EC66-4AB3-913D-1E78C1A78430} = {0922F575-53B5-437E-9281-71931990BCD4}
+		{EE96656D-3598-4170-AA11-CEE2B7695D50} = {0922F575-53B5-437E-9281-71931990BCD4}
 	EndGlobalSection
 EndGlobal
