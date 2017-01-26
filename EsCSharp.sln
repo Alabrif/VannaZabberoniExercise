@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringraDiAsterischiDaInter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapValoriRef", "SwapValoriRef\SwapValoriRef.csproj", "{EE96656D-3598-4170-AA11-CEE2B7695D50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalizzaTemp", "AnalizzaTemp\AnalizzaTemp.csproj", "{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE96656D-3598-4170-AA11-CEE2B7695D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,5 +101,6 @@ Global
 		{CF19B820-32FA-412B-9C2F-8AD1E3C57282} = {0922F575-53B5-437E-9281-71931990BCD4}
 		{301BD772-EC66-4AB3-913D-1E78C1A78430} = {0922F575-53B5-437E-9281-71931990BCD4}
 		{EE96656D-3598-4170-AA11-CEE2B7695D50} = {0922F575-53B5-437E-9281-71931990BCD4}
+		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E} = {0922F575-53B5-437E-9281-71931990BCD4}
 	EndGlobalSection
 EndGlobal
