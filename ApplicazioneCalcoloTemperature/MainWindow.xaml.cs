@@ -34,7 +34,7 @@ namespace ApplicazioneCalcoloTemperature
             temperature = myGestione.GetTemeperature();
             foreach ( var temp in temperature )
             {
-                temperatureGenerate.Text += temp.ToString() + " - " ;
+                temperatureGenerate.Text += temp.ToString() + " | " ;
             }
         }
 
