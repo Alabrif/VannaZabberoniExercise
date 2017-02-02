@@ -42,6 +42,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalizzaTemp", "AnalizzaTem
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsPresentetionFoundation", "WindowsPresentetionFoundation", "{01E97EDB-FC2A-4F30-A391-1C1FB178DC35}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestioneTemperature", "GestioneTemperature\GestioneTemperature.csproj", "{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -88,6 +90,10 @@ Global
 		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,5 +110,6 @@ Global
 		{301BD772-EC66-4AB3-913D-1E78C1A78430} = {0922F575-53B5-437E-9281-71931990BCD4}
 		{EE96656D-3598-4170-AA11-CEE2B7695D50} = {0922F575-53B5-437E-9281-71931990BCD4}
 		{8B7E3BE1-DDEE-4FB2-8231-0520078E920E} = {0922F575-53B5-437E-9281-71931990BCD4}
+		{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454} = {01E97EDB-FC2A-4F30-A391-1C1FB178DC35}
 	EndGlobalSection
 EndGlobal
