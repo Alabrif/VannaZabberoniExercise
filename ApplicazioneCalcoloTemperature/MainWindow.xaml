@@ -8,7 +8,14 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="generaTemp" Content="Genera Temperature" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Width="75" Click="generaTemp_Click"/>
-        <TextBlock x:Name="temperatureGenerate" HorizontalAlignment="Left" Margin="146,30,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="174"/>
+        <TextBlock x:Name="temperatureGenerate" HorizontalAlignment="Left" Margin="146,30,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="354" TextAlignment="Center"/>
+        <Label x:Name="Minimo" Content="Minimo" HorizontalAlignment="Left" Margin="80,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Minimo_Copy" Content="Massimo" HorizontalAlignment="Left" Margin="210,160,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Minimo_Copy1" Content="Medio" HorizontalAlignment="Left" Margin="332,160,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="calcolaTemperature" Content="Calcola!" HorizontalAlignment="Left" Margin="40,70,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="minimoTextBlock" HorizontalAlignment="Left" Margin="100,210,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" RenderTransformOrigin="-0.204,-1.25" FontSize="18"/>
+        <TextBlock x:Name="massimoTextBlock" HorizontalAlignment="Left" Margin="235,210,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" RenderTransformOrigin="-0.204,-1.25" FontSize="18"/>
+        <TextBlock x:Name="medioTextBlock" HorizontalAlignment="Left" Margin="350,210,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" RenderTransformOrigin="-0.204,-1.25" FontSize="18" Width="7"/>
 
     </Grid>
 </Window>
