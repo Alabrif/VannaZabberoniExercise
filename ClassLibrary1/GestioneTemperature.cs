@@ -3,14 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EsCSharp;
 
-namespace EsCSharp
+namespace WindowsPresentationFoundation
 {
     public class GestioneTemperature
     {
-        private int max = 0;
-        private int min = 0;
+        private int MAX = 0;
+        private int MIN = 0;
 
         private int _numeroTemperatureDaGenerare;
 
@@ -29,18 +28,18 @@ namespace EsCSharp
         public GestioneTemperature (int quantita, int max, int min)
         {
             numeroTemperatureDaGenerare = quantita;
-            this.max = max;
-            this.min = min;
+            MAX = max;
+            MIN = min;
         }
 
 
         Random myRand = new Random();
         public int[] GetTemeperature ()
         {
-            int[] temperature = new int[max];
-            for ( int i = 0 ; i < max ; i++ )
+            int[] temperature = new int[MAX];
+            for ( int i = 0 ; i < MAX ; i++ )
             {
-                temperature[ i ] = myRand.Next( min , max );
+                temperature[ i ] = myRand.Next( MIN , MAX );
             }
 
             return temperature;
@@ -56,8 +55,8 @@ namespace EsCSharp
         /// <returns></returns>
         public bool AnalizzaTemp (int[] temp, out int min, out int max, out double media)
         {
-            min = this.max;
-            max = this.min;
+            min = MAX;
+            max = MIN;
             media = 0.0;
             foreach ( var t in temp )
             {

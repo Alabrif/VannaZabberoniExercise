@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WindowsPresentationFoundation;
 
 namespace ApplicazioneCalcoloTemperature
 {
@@ -23,6 +24,18 @@ namespace ApplicazioneCalcoloTemperature
         public MainWindow ()
         {
             InitializeComponent();
+        }
+
+        private void generaTemp_Click ( object sender , RoutedEventArgs e )
+        {
+            GestioneTemperature myGestione = new GestioneTemperature(15, 0, 25);
+
+            int[] temperature = myGestione.GetTemeperature();
+
+            foreach ( var temp in temperature )
+            {
+                temperatureGenerate.Text += temp.ToString() + " - " ;
+            }
         }
     }
 }
