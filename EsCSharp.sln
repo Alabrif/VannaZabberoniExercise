@@ -44,7 +44,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsPresentetionFoundati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestioneTemperature", "GestioneTemperature\GestioneTemperature.csproj", "{0D3CAA6C-1F4A-4327-BF0F-0F34B6272454}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{61D77CFD-CB24-4FFF-BA70-FD6B8178B6CB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestioneTemperature", "ClassLibrary1\GestioneTemperature.csproj", "{61D77CFD-CB24-4FFF-BA70-FD6B8178B6CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{F8EA3F66-E8B1-4F07-B84A-AD868358E32D}"
 EndProject
