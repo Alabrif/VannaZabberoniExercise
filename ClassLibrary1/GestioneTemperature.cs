@@ -74,6 +74,8 @@ namespace WindowsPresentationFoundation
                 media += t;
             }
 
+            media = media / temp.Length;
+
             if ( min > max )
             {
                 return false;

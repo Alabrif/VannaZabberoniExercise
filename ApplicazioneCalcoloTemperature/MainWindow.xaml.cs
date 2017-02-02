@@ -21,6 +21,9 @@ namespace ApplicazioneCalcoloTemperature
     /// </summary>
     public partial class MainWindow : Window
     {
+        GestioneTemperature myGestione = new GestioneTemperature( 15 , 25 , 0 );
+        int[] temperature;
+
         public MainWindow ()
         {
             InitializeComponent();
@@ -28,13 +31,25 @@ namespace ApplicazioneCalcoloTemperature
 
         private void generaTemp_Click ( object sender , RoutedEventArgs e )
         {
-            GestioneTemperature myGestione = new GestioneTemperature(15, 25, 0);
-
-            int[] temperature = myGestione.GetTemeperature();
-
+            temperature = myGestione.GetTemeperature();
             foreach ( var temp in temperature )
             {
                 temperatureGenerate.Text += temp.ToString() + " - " ;
+            }
+        }
+
+        private void calcolaTemperature_Click ( object sender , RoutedEventArgs e )
+        {
+            int min = 0;
+            int max = 0;
+            double media = 0;
+
+            bool buonFine = false;
+            if ( (buonFine = myGestione.AnalizzaTemp(temperature, out min, out max, out media)) )
+            {
+                massimoTextBlock.Text = max.ToString();
+                minimoTextBlock.Text = min.ToString();
+                medioTextBlock.Text = media.ToString();
             }
         }
     }
