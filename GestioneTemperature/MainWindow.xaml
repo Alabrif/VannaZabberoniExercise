@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="generaTemperature" Content="Genera Temperature" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25px" />
+        <Label x:Name="temperatureGenerate" Content="-" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="245,25,0,0" RenderTransformOrigin="0.217,0.577" />
+        <Button x:Name="button" Content="Calcola " HorizontalAlignment="Left" Margin="25,70,0,0" VerticalAlignment="Top" Width="75" Cursor="Hand" ToolTip="Premi per calcolare "/>
+        <Label x:Name="label" Content="Min" HorizontalAlignment="Left" Margin="80,190,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Label x:Name="label_Copy" Content="Max" HorizontalAlignment="Left" Margin="210,190,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Label x:Name="label_Copy1" Content="Media" HorizontalAlignment="Left" Margin="340,190,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <TextBlock x:Name="min" HorizontalAlignment="Left" Margin="93,234,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock x:Name="max" HorizontalAlignment="Left" Margin="225,234,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="18"/>
+        <TextBlock x:Name="media" HorizontalAlignment="Left" Margin="360,234,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" FontSize="18"/>
+
     </Grid>
 </Window>
