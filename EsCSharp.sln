@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapValoriRef", "SwapValori
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnalizzaTemp", "AnalizzaTemp\AnalizzaTemp.csproj", "{8B7E3BE1-DDEE-4FB2-8231-0520078E920E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsPresentetionFoundation", "WindowsPresentetionFoundation", "{01E97EDB-FC2A-4F30-A391-1C1FB178DC35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
