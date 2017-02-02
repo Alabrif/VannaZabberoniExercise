@@ -24,5 +24,10 @@ namespace GestioneTemperature
         {
             InitializeComponent();
         }
+
+        private void generaTemperature_Click ( object sender , RoutedEventArgs e )
+        {
+
+        }
     }
 }

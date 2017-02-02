@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="generaTemperature" Content="Genera Temperature" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25px" />
+        <Button x:Name="generaTemperature" Content="Genera Temperature" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="25px" Click="generaTemperature_Click" />
         <Label x:Name="temperatureGenerate" Content="-" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="245,25,0,0" RenderTransformOrigin="0.217,0.577" />
         <Button x:Name="button" Content="Calcola " HorizontalAlignment="Left" Margin="25,70,0,0" VerticalAlignment="Top" Width="75" Cursor="Hand" ToolTip="Premi per calcolare "/>
         <Label x:Name="label" Content="Min" HorizontalAlignment="Left" Margin="80,190,0,0" VerticalAlignment="Top" IsEnabled="False"/>
