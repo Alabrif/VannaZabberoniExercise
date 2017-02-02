@@ -28,7 +28,7 @@ namespace ApplicazioneCalcoloTemperature
 
         private void generaTemp_Click ( object sender , RoutedEventArgs e )
         {
-            GestioneTemperature myGestione = new GestioneTemperature(15, 0, 25);
+            GestioneTemperature myGestione = new GestioneTemperature(15, 25, 0);
 
             int[] temperature = myGestione.GetTemeperature();
 

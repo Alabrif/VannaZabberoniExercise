@@ -8,8 +8,8 @@ namespace WindowsPresentationFoundation
 {
     public class GestioneTemperature
     {
-        private int MAX = 0;
-        private int MIN = 0;
+        public int MAX { get; set; }
+        public int MIN { get; set; }
 
         private int _numeroTemperatureDaGenerare;
 
