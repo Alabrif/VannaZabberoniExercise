@@ -8,7 +8,7 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Button x:Name="generaTemp" Content="Genera Temperature" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Width="114" Click="generaTemp_Click"/>
-        <TextBlock x:Name="temperatureGenerate" HorizontalAlignment="Left" Margin="146,30,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="354" TextAlignment="Center"/>
+        <TextBlock x:Name="temperatureGenerate" HorizontalAlignment="Left" Margin="168,30,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="332" TextAlignment="Center" Height="20"/>
         <Label x:Name="Minimo" Content="Minimo" HorizontalAlignment="Left" Margin="80,160,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Minimo_Copy" Content="Massimo" HorizontalAlignment="Left" Margin="210,160,0,0" VerticalAlignment="Top"/>
         <Label x:Name="Minimo_Copy1" Content="Medio" HorizontalAlignment="Left" Margin="332,160,0,0" VerticalAlignment="Top"/>
