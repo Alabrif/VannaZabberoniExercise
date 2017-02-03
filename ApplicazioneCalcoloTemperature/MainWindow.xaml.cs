@@ -21,7 +21,7 @@ namespace ApplicazioneCalcoloTemperature
     /// </summary>
     public partial class MainWindow : Window
     {
-        GestioneTemperature myGestione = new GestioneTemperature( 15 , 25 , -15 );
+        GestioneTemperature myGestione = new GestioneTemperature( 20 , 25 , -15 );
         int[] temperature;
 
         public MainWindow ()
