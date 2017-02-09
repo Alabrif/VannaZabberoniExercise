@@ -21,7 +21,7 @@ namespace ApplicazioneCalcoloTemperature
     /// </summary>
     public partial class MainWindow : Window
     {
-        GestioneTemperature myGestione = new GestioneTemperature( 15 , 25 , 0 );
+        GestioneTemperature myGestione = new GestioneTemperature( 20 , 25 , -15 );
         int[] temperature;
 
         public MainWindow ()
@@ -34,7 +34,7 @@ namespace ApplicazioneCalcoloTemperature
             temperature = myGestione.GetTemeperature();
             foreach ( var temp in temperature )
             {
-                temperatureGenerate.Text += temp.ToString() + " | " ;
+                temperatureGenerate.Text += temp.ToString() + " - " ;
             }
         }
 
