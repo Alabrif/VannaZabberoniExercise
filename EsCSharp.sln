@@ -50,6 +50,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicazioneCalcoloTemperat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxUtenteSeleziona", "..\VerificaSebastianoGaudeanoWPF\VerificaSebastianoGaudeanoWPF\ListBoxUtenteSeleziona.csproj", "{7C58C2C4-CD6C-476D-9B65-D907151B2243}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Eccezzioni", "Eccezzioni", "{15E57684-7AD2-4331-9720-482D28C6A0D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Esercizi Vari", "Esercizi Vari", "{FE1F7C28-BF78-44D2-9403-BB4132992791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
