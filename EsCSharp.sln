@@ -62,6 +62,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilForDelegates", "UtilFor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesUtilForDelegates", "TesUtilForDelegates\TesUtilForDelegates.csproj", "{B5259BF8-58B9-41CB-8909-6FB14CD422A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerzoTentativoDelegati", "TerzoTentativoDelegati\TerzoTentativoDelegati.csproj", "{09445D9F-52FE-4ABA-A905-86239069501D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -136,6 +138,10 @@ Global
 		{B5259BF8-58B9-41CB-8909-6FB14CD422A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5259BF8-58B9-41CB-8909-6FB14CD422A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5259BF8-58B9-41CB-8909-6FB14CD422A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09445D9F-52FE-4ABA-A905-86239069501D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09445D9F-52FE-4ABA-A905-86239069501D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09445D9F-52FE-4ABA-A905-86239069501D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09445D9F-52FE-4ABA-A905-86239069501D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,5 +166,6 @@ Global
 		{64820142-7B3F-4F2A-8307-5B24BBFAFE3B} = {13F45B56-414E-468C-889A-1BD9C9A39687}
 		{91770CB0-F68D-4347-A8AE-267737DC97EB} = {13F45B56-414E-468C-889A-1BD9C9A39687}
 		{B5259BF8-58B9-41CB-8909-6FB14CD422A6} = {13F45B56-414E-468C-889A-1BD9C9A39687}
+		{09445D9F-52FE-4ABA-A905-86239069501D} = {13F45B56-414E-468C-889A-1BD9C9A39687}
 	EndGlobalSection
 EndGlobal
