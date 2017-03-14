@@ -1,9 +1,20 @@
-﻿namespace TerzoTentativoDelegati
+﻿using System;
+
+namespace TerzoTentativoDelegati
 {
-    class Program
+    public class Program
     {
-        static void Main ( string[] args )
+        public static void Main ( string[] args )
         {
+
+            TerzoTentativoCarDb CarDb = new TerzoTentativoCarDb();
+
+            CarDb.GiveMeCarToProcess( new TerzoTentativoCarDb.ProcessCarDelegate( PerfomCalculationOnCar.StampCarModel ) );
+            Console.WriteLine( "\n\n" );
+            CarDb.GiveMeCarToProcess( new TerzoTentativoCarDb.ProcessCarDelegate( PerfomCalculationOnCar.StampCarName ) );
+            Console.WriteLine( "\n\n" );
+            CarDb.GiveMeCarToProcess( new TerzoTentativoCarDb.ProcessCarDelegate( PerfomCalculationOnCar.StampCarPrice ) );
+            Console.Read();
         }
     }
 }
