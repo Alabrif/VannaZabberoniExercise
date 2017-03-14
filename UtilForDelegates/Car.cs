@@ -11,7 +11,7 @@ namespace UtilForDelegates
 
         public override string ToString ()
         {
-            return String.Format( "Nome macchina: {0} Modello macchina: {1} Anno di immatricolazione: {2} Prezzo: {3}" ,
+            return String.Format( "Nome macchina: {0} | Modello macchina: {1} | Anno di immatricolazione: {2}| Prezzo: {3}" ,
                 Name , Model , Year , Price );
         }
     }

@@ -9,13 +9,14 @@ namespace UtilForDelegates
     public class CarDb
     {
         public IEnumerable<Car> Cars { get; set; }
+        private static Random myRand = new Random();
 
         public CarDb ()
         {
             Cars = GenerateDbCar();
         }
 
-        private Random myRand = new Random();
+
 
         private List<Car> GenerateDbCar ()
         {
