@@ -94,7 +94,7 @@ namespace UtilForDelegates
         }
 
         /// <summary>
-        /// 
+        /// Get a list with most common car Name
         /// </summary>
         /// <returns></returns>
         public List<string> GetCarName ()
